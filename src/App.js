@@ -14,6 +14,13 @@ import StyleSheet from './components/StyleSheet';
 import Form from './components/Form';
 import HookCounter from './components/HookCounter';
 import HookCounterTwo from './components/HookCounterTwo';
+import HookCounter3 from './components/HookCounter3';
+import HookCounter4 from './components/HookCounter4';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import UseEffectOne from './components/UseEffectOne';
+import UseEffectTwo from './components/UseEffectTwo';
+import UseEffectThree from './components/UseEffectThree';
 function App() {
   return (
     <div className="App">
@@ -36,8 +43,17 @@ function App() {
       <NameList/>
       <StyleSheet />
       <Form />
-      <HookCounter />*/}
+      <HookCounter />
       <HookCounterTwo />
+      <HookCounter3 />
+
+      <HookCounter4 />
+      <FragmentDemo />
+      <Table />
+      <UseEffectOne />
+      <UseEffectTwo />*/}
+      <UseEffectThree />
+
     </div >
   );
 }
