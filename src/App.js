@@ -21,6 +21,15 @@ import Table from './components/Table';
 import UseEffectOne from './components/UseEffectOne';
 import UseEffectTwo from './components/UseEffectTwo';
 import UseEffectThree from './components/UseEffectThree';
+import DataFetching from './DataFetching';
+import UseReducerOne from './components/UseReducerOne';
+import UseReducerTwo from './components/UseReducerTwo';
+import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchinngTwo from './components/DataFetchinngTwo';
+import UseCallbackParent from './components/UseCallbackParent';
+import UseMemoCounter from './components/UseMemoCounter';
+import UseRefInput from './components/UseRefInput';
+import UseRefTimer from './UseRefTimer';
 function App() {
   return (
     <div className="App">
@@ -51,9 +60,17 @@ function App() {
       <FragmentDemo />
       <Table />
       <UseEffectOne />
-      <UseEffectTwo />*/}
+      <UseEffectTwo />
       <UseEffectThree />
-
+      <DataFetching />
+      <UseReducerOne />
+      <UseReducerTwo />
+      <DataFetchingOne />
+      <DataFetchinngTwo />
+      <UseCallbackParent />
+      <UseMemoCounter />
+      <UseRefInput />*/}
+      <UseRefTimer />
     </div >
   );
 }
